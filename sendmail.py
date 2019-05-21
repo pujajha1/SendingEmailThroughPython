@@ -28,7 +28,7 @@ def sendmail(htmltext, subject, from_address, to_address):
     s.sendmail(from_address, to_address, msg.as_string())
     
 text="IT is working fine"
-htmltext = "<tr><td class='r'>{0}</tr>n".format(text)
+htmltext = "<tr><td class='r'>{0}</tr>".format(text)
 from_address = "pujajha5912@gmail.com"
 to_address = "pujajha5912@gmail.com"
 subject = "Sending Email"
