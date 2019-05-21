@@ -18,7 +18,7 @@ def sendmail(htmltext, subject, from_address, to_address):
     msg.attach(ptmsg)
     ptmsg.attach(
         MIMEText(
-            "nYou are seeing this message because your E-mail client has e-mail rendering set to Plain Text.n "
+            "nYou are seeing this message because your E-mail client has e-mail rendering set to Plain Text. "
             , 'text'))
     # Define HTML Message
     HTMLText = MIMEText(htmltext, 'html')
